@@ -1,11 +1,9 @@
-use std::ops::{Add, AddAssign};
+use std::ops::{AddAssign};
 
 use gmp_mpfr_sys::gmp;
-use num_bigint::BigUint;
-use num_traits::identities::Zero;
 use primal::Primes;
 use rug::{Assign, Integer};
-use rug::ops::{Pow, PowAssign};
+use rug::ops::{PowAssign};
 use std::fs::File;
 use std::io::Write;
 

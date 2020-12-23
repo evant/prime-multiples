@@ -8,8 +8,6 @@ edition = "2018"
 
 [dependencies]
 primal = "0.3.0"
-num-bigint = "0.3.1"
-num-traits = "0.2.14"
 rug = "1.11.0"
 #concurrent_prime_sieve = "0.3.3"
 [dependencies.gmp-mpfr-sys]
